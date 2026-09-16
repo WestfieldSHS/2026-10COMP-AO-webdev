@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Corben');
+@import url('https://fonts.googleapis.com/css?family=Story+Script');
+
+body {
+  font-family: 'Story+Script';
+  margin: 0;
+  padding: 0;
+}
+.content h1, h2, p, img{
+  margin-left: 0px;
+  width: 900px;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+
+h1{
+  font-family: 'Corben';
+  color: rgb(0, 0, 0)
+}
